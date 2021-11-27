@@ -1,0 +1,15 @@
+D:\Workspaces\HiTechStore\HiTechStore.Data\bin\Debug\net5.0\HiTechStore.Data.deps.json
+D:\Workspaces\HiTechStore\HiTechStore.Data\bin\Debug\net5.0\HiTechStore.Data.runtimeconfig.json
+D:\Workspaces\HiTechStore\HiTechStore.Data\bin\Debug\net5.0\HiTechStore.Data.runtimeconfig.dev.json
+D:\Workspaces\HiTechStore\HiTechStore.Data\bin\Debug\net5.0\HiTechStore.Data.dll
+D:\Workspaces\HiTechStore\HiTechStore.Data\bin\Debug\net5.0\ref\HiTechStore.Data.dll
+D:\Workspaces\HiTechStore\HiTechStore.Data\bin\Debug\net5.0\HiTechStore.Data.pdb
+D:\Workspaces\HiTechStore\HiTechStore.Data\obj\Debug\net5.0\HiTechStore.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspaces\HiTechStore\HiTechStore.Data\obj\Debug\net5.0\HiTechStore.Data.AssemblyInfoInputs.cache
+D:\Workspaces\HiTechStore\HiTechStore.Data\obj\Debug\net5.0\HiTechStore.Data.AssemblyInfo.cs
+D:\Workspaces\HiTechStore\HiTechStore.Data\obj\Debug\net5.0\HiTechStore.Data.csproj.CoreCompileInputs.cache
+D:\Workspaces\HiTechStore\HiTechStore.Data\obj\Debug\net5.0\HiTechStore.Data.dll
+D:\Workspaces\HiTechStore\HiTechStore.Data\obj\Debug\net5.0\ref\HiTechStore.Data.dll
+D:\Workspaces\HiTechStore\HiTechStore.Data\obj\Debug\net5.0\HiTechStore.Data.pdb
+D:\Workspaces\HiTechStore\HiTechStore.Data\obj\Debug\net5.0\HiTechStore.Data.genruntimeconfig.cache
+D:\Workspaces\HiTechStore\HiTechStore.Data\obj\Debug\net5.0\HiTechStore.Data.csproj.AssemblyReference.cache

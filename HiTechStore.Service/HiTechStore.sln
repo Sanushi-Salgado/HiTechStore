@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HiTechStore.Service", "HiTechStore.Service.csproj", "{4C5690D5-19E6-47C3-A833-69E9BA43BDF3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HiTechStore.Data", "..\HiTechStore.Data\HiTechStore.Data.csproj", "{B297D234-0E64-47EA-AF8E-52E9ED257886}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HiTechStore.Common", "..\HiTechStore.Common\HiTechStore.Common.csproj", "{CEE46467-9FCA-4B02-B15A-F32DE4F0E568}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HiTechStore.Domain", "..\HiTechStore.Domain\HiTechStore.Domain.csproj", "{3C5FE177-0102-4B5B-A3D1-26CFE132FEB5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HiTechStore.Web", "..\HiTechStore.Web\HiTechStore.Web.csproj", "{444B8447-EECF-4DAA-8B1C-FA774690A960}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HiTechStore.Tests", "..\HiTechStore.Tests\HiTechStore.Tests.csproj", "{AB86B0D1-506B-459A-A662-0526EA3391C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C5690D5-19E6-47C3-A833-69E9BA43BDF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C5690D5-19E6-47C3-A833-69E9BA43BDF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C5690D5-19E6-47C3-A833-69E9BA43BDF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C5690D5-19E6-47C3-A833-69E9BA43BDF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B297D234-0E64-47EA-AF8E-52E9ED257886}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B297D234-0E64-47EA-AF8E-52E9ED257886}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B297D234-0E64-47EA-AF8E-52E9ED257886}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B297D234-0E64-47EA-AF8E-52E9ED257886}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEE46467-9FCA-4B02-B15A-F32DE4F0E568}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEE46467-9FCA-4B02-B15A-F32DE4F0E568}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEE46467-9FCA-4B02-B15A-F32DE4F0E568}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEE46467-9FCA-4B02-B15A-F32DE4F0E568}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C5FE177-0102-4B5B-A3D1-26CFE132FEB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C5FE177-0102-4B5B-A3D1-26CFE132FEB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C5FE177-0102-4B5B-A3D1-26CFE132FEB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C5FE177-0102-4B5B-A3D1-26CFE132FEB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{444B8447-EECF-4DAA-8B1C-FA774690A960}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{444B8447-EECF-4DAA-8B1C-FA774690A960}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{444B8447-EECF-4DAA-8B1C-FA774690A960}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{444B8447-EECF-4DAA-8B1C-FA774690A960}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB86B0D1-506B-459A-A662-0526EA3391C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB86B0D1-506B-459A-A662-0526EA3391C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB86B0D1-506B-459A-A662-0526EA3391C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB86B0D1-506B-459A-A662-0526EA3391C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7079742B-E69B-4907-AE15-E06CE2475D47}
+	EndGlobalSection
+EndGlobal

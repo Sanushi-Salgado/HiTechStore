@@ -1,0 +1,12 @@
+D:\Workspaces\HiTechStore\HiTechStore.Common\bin\Debug\net5.0\HiTechStore.Common.deps.json
+D:\Workspaces\HiTechStore\HiTechStore.Common\bin\Debug\net5.0\HiTechStore.Common.dll
+D:\Workspaces\HiTechStore\HiTechStore.Common\bin\Debug\net5.0\ref\HiTechStore.Common.dll
+D:\Workspaces\HiTechStore\HiTechStore.Common\bin\Debug\net5.0\HiTechStore.Common.pdb
+D:\Workspaces\HiTechStore\HiTechStore.Common\obj\Debug\net5.0\HiTechStore.Common.csproj.AssemblyReference.cache
+D:\Workspaces\HiTechStore\HiTechStore.Common\obj\Debug\net5.0\HiTechStore.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspaces\HiTechStore\HiTechStore.Common\obj\Debug\net5.0\HiTechStore.Common.AssemblyInfoInputs.cache
+D:\Workspaces\HiTechStore\HiTechStore.Common\obj\Debug\net5.0\HiTechStore.Common.AssemblyInfo.cs
+D:\Workspaces\HiTechStore\HiTechStore.Common\obj\Debug\net5.0\HiTechStore.Common.csproj.CoreCompileInputs.cache
+D:\Workspaces\HiTechStore\HiTechStore.Common\obj\Debug\net5.0\HiTechStore.Common.dll
+D:\Workspaces\HiTechStore\HiTechStore.Common\obj\Debug\net5.0\ref\HiTechStore.Common.dll
+D:\Workspaces\HiTechStore\HiTechStore.Common\obj\Debug\net5.0\HiTechStore.Common.pdb

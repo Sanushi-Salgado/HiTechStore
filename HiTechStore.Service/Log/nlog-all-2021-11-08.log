@@ -1,0 +1,19 @@
+2021-11-08 07:44:23.4388|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-11-08 07:44:23.4860|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-11-08 07:44:23.4942|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Workspaces\HiTechStore\HiTechStore
+2021-11-08 07:50:25.5396|WARN|Microsoft.AspNetCore.Identity.UserManager|User password validation failed: PasswordRequiresNonAlphanumeric;PasswordRequiresDigit;PasswordRequiresUpper.
+2021-11-08 07:56:53.6353|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-11-08 07:56:53.6979|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-11-08 07:56:53.6979|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Workspaces\HiTechStore\HiTechStore
+2021-11-08 07:58:36.7573|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-11-08 07:58:36.7963|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-11-08 07:58:36.7963|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Workspaces\HiTechStore\HiTechStore
+2021-11-08 08:03:09.0044|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-11-08 08:03:09.0522|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-11-08 08:03:09.0522|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Workspaces\HiTechStore\HiTechStore
+2021-11-08 08:31:23.5736|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-11-08 08:31:23.6173|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-11-08 08:31:23.6173|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Workspaces\HiTechStore\HiTechStore
+2021-11-08 08:32:41.8480|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-11-08 08:32:41.8897|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-11-08 08:32:41.9058|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Workspaces\HiTechStore\HiTechStore

@@ -1,0 +1,50 @@
+﻿@model HiTechStore.Data.Models.DatabaseModels.Authentication.RegisterModel
+@{
+    ViewBag.Title = "Register";
+}
+<h1>User Registration</h1>
+
+<form method="post" asp-controller="Authentication" asp-action="Register">
+    <div asp-validation-summary="ModelOnly"></div>
+
+    @*<div>
+            <label asp-for="FirstName">First Name</label>
+            <input asp-for="FirstName" />
+            <span asp-validation-for="FirstName"></span>
+        </div>
+
+        <div>
+            <label asp-for="LastName">Last Name</label>
+            <input asp-for="LastName" />
+            <span asp-validation-for="LastName"></span>
+        </div>*@
+
+    <div>
+        <label asp-for="Username">Username</label>
+        <input asp-for="Username" />
+        <span asp-validation-for="Username"></span>
+    </div>
+
+    <div>
+        <label asp-for="Email">Email</label>
+        <input asp-for="Email" />
+        <span asp-validation-for="Email"></span>
+    </div>
+
+    <div>
+        <label asp-for="Password">Password</label>
+        <input asp-for="Password" />
+        <span asp-validation-for="Password"></span>
+    </div>
+
+    @*<div>
+            <label asp-for="ConfirmPassword">Confirm Password</label>
+            <input asp-for="ConfirmPassword" />
+            <span asp-validation-for="ConfirmPassword"></span>
+        </div>*@
+
+    <div>
+        <input type="submit" value="Register" />
+    </div>
+
+</form>

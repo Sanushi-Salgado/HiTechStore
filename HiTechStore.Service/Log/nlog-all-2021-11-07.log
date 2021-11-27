@@ -1,0 +1,108 @@
+2021-11-07 13:36:24.6640|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-11-07 13:36:24.7066|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-11-07 13:36:24.8221|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Workspaces\HiTechStore\HiTechStore
+2021-11-07 13:42:01.8332|WARN|Microsoft.AspNetCore.Identity.UserManager|User password validation failed: PasswordTooShort;PasswordRequiresNonAlphanumeric;PasswordRequiresUpper.
+2021-11-07 13:47:12.5741|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-11-07 13:47:12.6113|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-11-07 13:47:12.6148|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Workspaces\HiTechStore\HiTechStore
+2021-11-07 13:48:16.2714|WARN|Microsoft.AspNetCore.Identity.UserManager|User password validation failed: PasswordRequiresNonAlphanumeric;PasswordRequiresUpper.
+2021-11-07 13:49:27.7811|WARN|Microsoft.AspNetCore.Identity.UserManager|User password validation failed: PasswordTooShort;PasswordRequiresNonAlphanumeric;PasswordRequiresDigit;PasswordRequiresUpper.
+2021-11-07 13:49:47.7105|WARN|Microsoft.AspNetCore.Identity.UserManager|User password validation failed: PasswordRequiresNonAlphanumeric;PasswordRequiresDigit;PasswordRequiresUpper.
+2021-11-07 13:49:55.8764|WARN|Microsoft.AspNetCore.Identity.UserManager|User password validation failed: PasswordRequiresNonAlphanumeric;PasswordRequiresDigit;PasswordRequiresUpper.
+2021-11-07 13:50:26.7163|WARN|Microsoft.AspNetCore.Identity.UserManager|User password validation failed: PasswordRequiresDigit;PasswordRequiresUpper.
+2021-11-07 13:50:46.3534|WARN|Microsoft.AspNetCore.Identity.UserManager|User password validation failed: PasswordRequiresUpper.
+2021-11-07 14:20:06.1996|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-11-07 14:20:06.2450|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-11-07 14:20:06.2450|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Workspaces\HiTechStore\HiTechStore
+2021-11-07 14:21:31.4766|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-11-07 14:21:32.6129|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-11-07 14:21:32.6167|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Workspaces\HiTechStore\HiTechStore
+2021-11-07 14:22:41.4189|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-11-07 14:22:41.4635|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-11-07 14:22:41.4635|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Workspaces\HiTechStore\HiTechStore
+2021-11-07 14:25:48.3015|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (570ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (Size = 200) (DbType = AnsiString), @p2='?' (Size = 20) (DbType = AnsiString), @p3='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p4='?' (Size = 15) (DbType = AnsiString), @p5='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Product] ([created_at], [image_url], [name], [price], [sku], [type_id])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+SELECT [product_id]
+FROM [Product]
+WHERE @@ROWCOUNT = 1 AND [product_id] = scope_identity();
+2021-11-07 14:25:48.7160|ERROR|Microsoft.EntityFrameworkCore.Update|An exception occurred in the database while saving changes for context type 'HiTechStore.Data.Models.DatabaseModels.HiTechStoreContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_ProductType_Product". The conflict occurred in database "HiTechStore", table "dbo.ProductType", column 'product_type_id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:89b9835f-35dd-46a7-9617-f2caee1b3d1a
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2021-11-07 14:25:49.8639|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-11-07 14:33:06.9503|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-11-07 14:33:07.0084|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-11-07 14:33:07.0084|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Workspaces\HiTechStore\HiTechStore
+2021-11-07 20:14:15.5783|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-11-07 20:14:15.6683|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-11-07 20:14:15.6683|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Workspaces\HiTechStore\HiTechStore
+2021-11-07 20:21:47.5531|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-11-07 20:21:47.5941|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-11-07 20:21:47.6019|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Workspaces\HiTechStore\HiTechStore
+2021-11-07 20:27:50.0573|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-11-07 20:27:50.1085|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-11-07 20:27:50.1085|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Workspaces\HiTechStore\HiTechStore
+2021-11-07 21:16:44.8282|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-11-07 21:16:45.0905|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-11-07 21:16:45.0905|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Workspaces\HiTechStore\HiTechStore
+2021-11-07 21:20:14.1979|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-11-07 21:20:14.2342|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-11-07 21:20:14.2405|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Workspaces\HiTechStore\HiTechStore
+2021-11-07 21:21:28.8586|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-11-07 21:21:28.9198|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-11-07 21:21:28.9313|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Workspaces\HiTechStore\HiTechStore
+2021-11-07 21:38:25.2236|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-11-07 21:38:25.2870|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-11-07 21:38:25.2870|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Workspaces\HiTechStore\HiTechStore
+2021-11-07 21:40:22.4635|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-11-07 21:40:22.5034|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-11-07 21:40:22.5069|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Workspaces\HiTechStore\HiTechStore
+2021-11-07 21:47:37.0424|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-11-07 21:47:37.0773|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-11-07 21:47:37.0970|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Workspaces\HiTechStore\HiTechStore
+2021-11-07 21:51:01.2038|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-11-07 21:51:01.2493|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-11-07 21:51:01.2493|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Workspaces\HiTechStore\HiTechStore
+2021-11-07 22:05:11.5371|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-11-07 22:05:11.5820|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-11-07 22:05:11.5885|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Workspaces\HiTechStore\HiTechStore
+2021-11-07 22:07:09.3939|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-11-07 22:07:09.4379|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-11-07 22:07:09.4651|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Workspaces\HiTechStore\HiTechStore
+2021-11-07 22:13:41.9724|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-11-07 22:13:42.0153|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-11-07 22:13:42.0153|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Workspaces\HiTechStore\HiTechStore
+2021-11-07 22:20:28.8087|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-11-07 22:20:28.8537|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-11-07 22:20:28.8537|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Workspaces\HiTechStore\HiTechStore
+2021-11-07 22:29:34.6987|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-11-07 22:29:34.7467|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-11-07 22:29:34.7467|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Workspaces\HiTechStore\HiTechStore

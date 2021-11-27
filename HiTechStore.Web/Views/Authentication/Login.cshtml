@@ -1,0 +1,26 @@
+﻿@model HiTechStore.Data.Models.DatabaseModels.Authentication.LoginModel
+@{
+    ViewBag.Title = "Login";
+}
+<h1>User Login</h1>
+
+<form method="post" asp-controller="Authentication" asp-action="Login">
+    <div asp-validation-summary="ModelOnly"></div>
+
+    <div>
+        <label asp-for="Username">Username</label>
+        <input asp-for="Username" />
+        <span asp-validation-for="Username"></span>
+    </div>
+
+    <div>
+        <label asp-for="Password">Password</label>
+        <input asp-for="Password" />
+        <span asp-validation-for="Password"></span>
+    </div>
+
+    <div>
+        <input type="submit" value="Login" />
+    </div>
+
+</form>
